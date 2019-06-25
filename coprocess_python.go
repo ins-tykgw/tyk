@@ -4,7 +4,7 @@
 package main
 
 /*
-#cgo pkg-config: python3
+#cgo pkg-config: python-3.4
 #cgo python CFLAGS: -DENABLE_PYTHON -DPy_LIMITED_API
 
 
