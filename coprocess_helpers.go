@@ -7,8 +7,8 @@ import (
 
 	"github.com/Sirupsen/logrus"
 
-	"github.com/TykTechnologies/tyk/coprocess"
-	"github.com/TykTechnologies/tyk/user"
+	"github.com/ins-apigw/tyk/coprocess"
+	"github.com/ins-apigw/tyk/user"
 )
 
 // TykSessionState takes a coprocess.SessionState (as returned by the Protocol Buffer binding), and outputs a standard Tyk SessionState.

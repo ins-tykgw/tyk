@@ -33,8 +33,8 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/TykTechnologies/tyk/apidef"
-	"github.com/TykTechnologies/tyk/coprocess"
+	"github.com/ins-apigw/tyk/apidef"
+	"github.com/ins-apigw/tyk/coprocess"
 )
 
 var CoProcessReload = make(chan bool)

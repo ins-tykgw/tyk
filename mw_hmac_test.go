@@ -19,9 +19,9 @@ import (
 	"github.com/justinas/alice"
 	"github.com/lonelycode/go-uuid/uuid"
 
-	"github.com/TykTechnologies/tyk/apidef"
-	"github.com/TykTechnologies/tyk/config"
-	"github.com/TykTechnologies/tyk/user"
+	"github.com/ins-apigw/tyk/apidef"
+	"github.com/ins-apigw/tyk/config"
+	"github.com/ins-apigw/tyk/user"
 )
 
 const hmacAuthDef = `{

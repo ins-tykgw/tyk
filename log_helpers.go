@@ -5,9 +5,9 @@ import (
 
 	"github.com/Sirupsen/logrus"
 
-	"github.com/TykTechnologies/tyk/request"
+	"github.com/ins-apigw/tyk/request"
 
-	"github.com/TykTechnologies/tyk/config"
+	"github.com/ins-apigw/tyk/config"
 )
 
 // identifies that field value was hidden before output to the log

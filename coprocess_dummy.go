@@ -7,9 +7,9 @@ import (
 
 	"github.com/Sirupsen/logrus"
 
-	"github.com/TykTechnologies/tyk/apidef"
-	"github.com/TykTechnologies/tyk/config"
-	"github.com/TykTechnologies/tyk/coprocess"
+	"github.com/ins-apigw/tyk/apidef"
+	"github.com/ins-apigw/tyk/config"
+	"github.com/ins-apigw/tyk/coprocess"
 )
 
 const (

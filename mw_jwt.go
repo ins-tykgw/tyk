@@ -13,8 +13,8 @@ import (
 	"github.com/dgrijalva/jwt-go"
 	cache "github.com/pmylund/go-cache"
 
-	"github.com/TykTechnologies/tyk/apidef"
-	"github.com/TykTechnologies/tyk/user"
+	"github.com/ins-apigw/tyk/apidef"
+	"github.com/ins-apigw/tyk/user"
 )
 
 type JWTMiddleware struct {

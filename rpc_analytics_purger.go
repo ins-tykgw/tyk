@@ -6,8 +6,8 @@ import (
 
 	"gopkg.in/vmihailenco/msgpack.v2"
 
-	"github.com/TykTechnologies/tyk/config"
-	"github.com/TykTechnologies/tyk/storage"
+	"github.com/ins-apigw/tyk/config"
+	"github.com/ins-apigw/tyk/storage"
 )
 
 // Purger is an interface that will define how the in-memory store will be purged

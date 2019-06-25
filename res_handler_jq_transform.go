@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/TykTechnologies/tyk/user"
+	"github.com/ins-apigw/tyk/user"
 )
 
 type ResponseTransformJQMiddleware struct {

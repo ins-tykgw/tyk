@@ -9,8 +9,8 @@ import (
 
 	"github.com/satori/go.uuid"
 
-	"github.com/TykTechnologies/tyk/config"
-	"github.com/TykTechnologies/tyk/test"
+	"github.com/ins-apigw/tyk/config"
+	"github.com/ins-apigw/tyk/test"
 )
 
 func testPrepareProcessRequestQuotaLimit(tb testing.TB, ts tykTestServer, data map[string]interface{}) {

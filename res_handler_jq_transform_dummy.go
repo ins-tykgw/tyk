@@ -5,7 +5,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/TykTechnologies/tyk/user"
+	"github.com/ins-apigw/tyk/user"
 )
 
 type ResponseTransformJQMiddleware struct {

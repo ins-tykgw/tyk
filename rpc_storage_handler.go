@@ -16,8 +16,8 @@ import (
 	cache "github.com/pmylund/go-cache"
 	"github.com/satori/go.uuid"
 
-	"github.com/TykTechnologies/tyk/config"
-	"github.com/TykTechnologies/tyk/storage"
+	"github.com/ins-apigw/tyk/config"
+	"github.com/ins-apigw/tyk/storage"
 
 	"github.com/Sirupsen/logrus"
 )

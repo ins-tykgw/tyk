@@ -8,9 +8,9 @@ import (
 	"testing"
 	"text/template"
 
-	"github.com/TykTechnologies/tyk/apidef"
-	"github.com/TykTechnologies/tyk/config"
-	"github.com/TykTechnologies/tyk/storage"
+	"github.com/ins-apigw/tyk/apidef"
+	"github.com/ins-apigw/tyk/config"
+	"github.com/ins-apigw/tyk/storage"
 )
 
 const sampleUptimeTestAPI = `{

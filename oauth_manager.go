@@ -14,9 +14,9 @@ import (
 
 	"strconv"
 
-	"github.com/TykTechnologies/tyk/config"
-	"github.com/TykTechnologies/tyk/storage"
-	"github.com/TykTechnologies/tyk/user"
+	"github.com/ins-apigw/tyk/config"
+	"github.com/ins-apigw/tyk/storage"
+	"github.com/ins-apigw/tyk/user"
 )
 
 /*

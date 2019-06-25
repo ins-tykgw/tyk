@@ -6,11 +6,11 @@ import (
 
 	kingpin "gopkg.in/alecthomas/kingpin.v2"
 
-	"github.com/TykTechnologies/tyk/cli/bundler"
-	"github.com/TykTechnologies/tyk/cli/importer"
-	"github.com/TykTechnologies/tyk/cli/lint"
+	"github.com/ins-apigw/tyk/cli/bundler"
+	"github.com/ins-apigw/tyk/cli/importer"
+	"github.com/ins-apigw/tyk/cli/lint"
 
-	logger "github.com/TykTechnologies/tyk/log"
+	logger "github.com/ins-apigw/tyk/log"
 )
 
 const (

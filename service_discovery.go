@@ -8,7 +8,7 @@ import (
 
 	"github.com/Jeffail/gabs"
 
-	"github.com/TykTechnologies/tyk/apidef"
+	"github.com/ins-apigw/tyk/apidef"
 )
 
 const arrayName = "tyk_array"

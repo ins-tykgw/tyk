@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/TykTechnologies/tyk/apidef"
+	"github.com/ins-apigw/tyk/apidef"
 )
 
 const (

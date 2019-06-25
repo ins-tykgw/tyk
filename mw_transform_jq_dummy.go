@@ -5,7 +5,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/TykTechnologies/tyk/apidef"
+	"github.com/ins-apigw/tyk/apidef"
 )
 
 type TransformJQMiddleware struct {

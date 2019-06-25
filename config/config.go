@@ -11,9 +11,9 @@ import (
 
 	"github.com/kelseyhightower/envconfig"
 
-	"github.com/TykTechnologies/tyk/apidef"
-	logger "github.com/TykTechnologies/tyk/log"
-	"github.com/TykTechnologies/tyk/regexp"
+	"github.com/ins-apigw/tyk/apidef"
+	logger "github.com/ins-apigw/tyk/log"
+	"github.com/ins-apigw/tyk/regexp"
 )
 
 var log = logger.Get()

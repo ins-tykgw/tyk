@@ -4,8 +4,8 @@ import (
 	"errors"
 	"io"
 
-	"github.com/TykTechnologies/tyk/apidef"
-	logger "github.com/TykTechnologies/tyk/log"
+	"github.com/ins-apigw/tyk/apidef"
+	logger "github.com/ins-apigw/tyk/log"
 )
 
 var log = logger.Get()

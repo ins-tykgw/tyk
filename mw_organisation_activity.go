@@ -8,8 +8,8 @@ import (
 
 	"time"
 
-	"github.com/TykTechnologies/tyk/request"
-	"github.com/TykTechnologies/tyk/user"
+	"github.com/ins-apigw/tyk/request"
+	"github.com/ins-apigw/tyk/user"
 )
 
 type orgChanMapMu struct {

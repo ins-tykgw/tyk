@@ -12,7 +12,7 @@ import (
 
 	"github.com/Sirupsen/logrus"
 
-	"github.com/TykTechnologies/tyk/apidef"
+	"github.com/ins-apigw/tyk/apidef"
 )
 
 type TransformJQMiddleware struct {

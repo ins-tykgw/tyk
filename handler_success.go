@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/TykTechnologies/tyk/config"
-	"github.com/TykTechnologies/tyk/request"
-	"github.com/TykTechnologies/tyk/user"
+	"github.com/ins-apigw/tyk/config"
+	"github.com/ins-apigw/tyk/request"
+	"github.com/ins-apigw/tyk/user"
 	cache "github.com/pmylund/go-cache"
 )
 

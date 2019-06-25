@@ -21,7 +21,7 @@ import (
 
 	newrelic "github.com/newrelic/go-agent"
 
-	"github.com/TykTechnologies/tyk/checkup"
+	"github.com/ins-apigw/tyk/checkup"
 
 	"github.com/Sirupsen/logrus"
 	logrus_syslog "github.com/Sirupsen/logrus/hooks/syslog"
@@ -39,14 +39,14 @@ import (
 
 	"github.com/TykTechnologies/goagain"
 	gas "github.com/TykTechnologies/goautosocket"
-	"github.com/TykTechnologies/tyk/apidef"
-	"github.com/TykTechnologies/tyk/certs"
-	cli "github.com/TykTechnologies/tyk/cli"
-	"github.com/TykTechnologies/tyk/config"
-	logger "github.com/TykTechnologies/tyk/log"
-	"github.com/TykTechnologies/tyk/regexp"
-	"github.com/TykTechnologies/tyk/storage"
-	"github.com/TykTechnologies/tyk/user"
+	"github.com/ins-apigw/tyk/apidef"
+	"github.com/ins-apigw/tyk/certs"
+	cli "github.com/ins-apigw/tyk/cli"
+	"github.com/ins-apigw/tyk/config"
+	logger "github.com/ins-apigw/tyk/log"
+	"github.com/ins-apigw/tyk/regexp"
+	"github.com/ins-apigw/tyk/storage"
+	"github.com/ins-apigw/tyk/user"
 )
 
 var (

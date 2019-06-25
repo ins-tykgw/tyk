@@ -21,10 +21,10 @@ import (
 	circuit "github.com/rubyist/circuitbreaker"
 
 	"github.com/TykTechnologies/gojsonschema"
-	"github.com/TykTechnologies/tyk/apidef"
-	"github.com/TykTechnologies/tyk/config"
-	"github.com/TykTechnologies/tyk/regexp"
-	"github.com/TykTechnologies/tyk/storage"
+	"github.com/ins-apigw/tyk/apidef"
+	"github.com/ins-apigw/tyk/config"
+	"github.com/ins-apigw/tyk/regexp"
+	"github.com/ins-apigw/tyk/storage"
 )
 
 const (
@@ -1181,7 +1181,7 @@ func (a *APISpec) RequestValid(r *http.Request) (bool, RequestStatus, interface{
 	// TODO: Don't abuse the interface{} return value for both
 	// *apidef.EndpointMethodMeta and *time.Time. Probably need to
 	// redesign or entirely remove RequestValid. See discussion on
-	// https://github.com/TykTechnologies/tyk/pull/776
+	// https://github.com/ins-apigw/tyk/pull/776
 	expired, expTime := a.VersionExpired(versionMetaData)
 	if expired {
 		return false, VersionExpired, nil

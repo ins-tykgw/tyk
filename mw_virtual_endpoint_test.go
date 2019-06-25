@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/TykTechnologies/tyk/apidef"
-	"github.com/TykTechnologies/tyk/test"
+	"github.com/ins-apigw/tyk/apidef"
+	"github.com/ins-apigw/tyk/test"
 )
 
 const virtTestJS = `
@@ -47,7 +47,7 @@ func testPrepareVirtualEndpoint(js string, method string, path string, proxyOnEr
 			"bar": map[string]interface{}{"y": 3},
 		}
 
-		// Address https://github.com/TykTechnologies/tyk/issues/1356
+		// Address https://github.com/ins-apigw/tyk/issues/1356
 		// VP should work with cache enabled
 		spec.CacheOptions = apidef.CacheOptions{
 			EnableCache:          true,

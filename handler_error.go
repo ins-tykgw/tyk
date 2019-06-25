@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/TykTechnologies/tyk/request"
+	"github.com/ins-apigw/tyk/request"
 )
 
 const (

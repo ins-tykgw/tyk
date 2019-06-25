@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/TykTechnologies/tyk/request"
-	"github.com/TykTechnologies/tyk/storage"
+	"github.com/ins-apigw/tyk/request"
+	"github.com/ins-apigw/tyk/storage"
 )
 
 const (

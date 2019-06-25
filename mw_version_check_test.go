@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/TykTechnologies/tyk/apidef"
-	"github.com/TykTechnologies/tyk/test"
-	"github.com/TykTechnologies/tyk/user"
+	"github.com/ins-apigw/tyk/apidef"
+	"github.com/ins-apigw/tyk/test"
+	"github.com/ins-apigw/tyk/user"
 )
 
 func testPrepareVersioning() (string, string) {

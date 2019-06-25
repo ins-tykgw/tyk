@@ -6,7 +6,7 @@ import (
 	"testing"
 	"text/template"
 
-	"github.com/TykTechnologies/tyk/apidef"
+	"github.com/ins-apigw/tyk/apidef"
 )
 
 func testPrepareTransformNonAscii() (*TransformSpec, string) {

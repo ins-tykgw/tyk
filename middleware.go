@@ -16,11 +16,11 @@ import (
 	"github.com/paulbellamy/ratecounter"
 	cache "github.com/pmylund/go-cache"
 
-	"github.com/TykTechnologies/tyk/apidef"
-	"github.com/TykTechnologies/tyk/config"
-	"github.com/TykTechnologies/tyk/request"
-	"github.com/TykTechnologies/tyk/storage"
-	"github.com/TykTechnologies/tyk/user"
+	"github.com/ins-apigw/tyk/apidef"
+	"github.com/ins-apigw/tyk/config"
+	"github.com/ins-apigw/tyk/request"
+	"github.com/ins-apigw/tyk/storage"
+	"github.com/ins-apigw/tyk/user"
 )
 
 const mwStatusRespond = 666
@@ -439,7 +439,7 @@ func (t BaseMiddleware) ApplyPolicies(session *user.SessionState) error {
 func (t BaseMiddleware) CheckSessionAndIdentityForValidKey(key string, r *http.Request) (user.SessionState, bool) {
 	minLength := t.Spec.GlobalConfig.MinTokenLength
 	if minLength == 0 {
-		// See https://github.com/TykTechnologies/tyk/issues/1681
+		// See https://github.com/ins-apigw/tyk/issues/1681
 		minLength = 3
 	}
 

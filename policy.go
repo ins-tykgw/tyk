@@ -10,8 +10,8 @@ import (
 
 	"github.com/Sirupsen/logrus"
 
-	"github.com/TykTechnologies/tyk/config"
-	"github.com/TykTechnologies/tyk/user"
+	"github.com/ins-apigw/tyk/config"
+	"github.com/ins-apigw/tyk/user"
 )
 
 type DBAccessDefinition struct {

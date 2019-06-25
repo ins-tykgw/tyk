@@ -13,8 +13,8 @@ import (
 	"github.com/mitchellh/mapstructure"
 	"gopkg.in/xmlpath.v2"
 
-	"github.com/TykTechnologies/tyk/apidef"
-	"github.com/TykTechnologies/tyk/regexp"
+	"github.com/ins-apigw/tyk/apidef"
+	"github.com/ins-apigw/tyk/regexp"
 )
 
 // IdExtractor is the base interface for an ID extractor.

@@ -13,10 +13,10 @@ import (
 
 	"github.com/garyburd/redigo/redis"
 
-	"github.com/TykTechnologies/tyk/apidef"
-	"github.com/TykTechnologies/tyk/config"
-	"github.com/TykTechnologies/tyk/test"
-	"github.com/TykTechnologies/tyk/user"
+	"github.com/ins-apigw/tyk/apidef"
+	"github.com/ins-apigw/tyk/config"
+	"github.com/ins-apigw/tyk/test"
+	"github.com/ins-apigw/tyk/user"
 )
 
 func createDefinitionFromString(defStr string) *APISpec {

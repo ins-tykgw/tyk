@@ -5,7 +5,7 @@ import (
 
 	"github.com/Sirupsen/logrus"
 
-	"github.com/TykTechnologies/tyk/storage"
+	"github.com/ins-apigw/tyk/storage"
 )
 
 type redisChannelHook struct {

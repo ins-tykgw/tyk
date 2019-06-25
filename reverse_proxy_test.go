@@ -11,8 +11,8 @@ import (
 	"testing"
 	"text/template"
 
-	"github.com/TykTechnologies/tyk/apidef"
-	"github.com/TykTechnologies/tyk/request"
+	"github.com/ins-apigw/tyk/apidef"
+	"github.com/ins-apigw/tyk/request"
 )
 
 func TestCopyHeader_NoDuplicateCORSHeaders(t *testing.T) {

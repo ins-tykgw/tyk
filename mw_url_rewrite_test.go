@@ -7,8 +7,8 @@ import (
 	"bytes"
 	"net/http"
 
-	"github.com/TykTechnologies/tyk/apidef"
-	"github.com/TykTechnologies/tyk/user"
+	"github.com/ins-apigw/tyk/apidef"
+	"github.com/ins-apigw/tyk/user"
 )
 
 var testRewriterData = []struct {
