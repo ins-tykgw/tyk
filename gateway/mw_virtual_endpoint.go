@@ -18,9 +18,9 @@ import (
 	"github.com/robertkrimen/otto"
 	_ "github.com/robertkrimen/otto/underscore"
 
-	"github.com/TykTechnologies/tyk/apidef"
-	"github.com/TykTechnologies/tyk/config"
-	"github.com/TykTechnologies/tyk/user"
+	"github.com/ins-tykgw/tyk/apidef"
+	"github.com/ins-tykgw/tyk/config"
+	"github.com/ins-tykgw/tyk/user"
 
 	"github.com/Sirupsen/logrus"
 )

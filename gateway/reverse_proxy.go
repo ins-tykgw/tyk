@@ -33,13 +33,13 @@ import (
 	"github.com/opentracing/opentracing-go/ext"
 	cache "github.com/pmylund/go-cache"
 
-	"github.com/TykTechnologies/tyk/apidef"
-	"github.com/TykTechnologies/tyk/config"
-	"github.com/TykTechnologies/tyk/ctx"
-	"github.com/TykTechnologies/tyk/headers"
-	"github.com/TykTechnologies/tyk/regexp"
-	"github.com/TykTechnologies/tyk/trace"
-	"github.com/TykTechnologies/tyk/user"
+	"github.com/ins-tykgw/tyk/apidef"
+	"github.com/ins-tykgw/tyk/config"
+	"github.com/ins-tykgw/tyk/ctx"
+	"github.com/ins-tykgw/tyk/headers"
+	"github.com/ins-tykgw/tyk/regexp"
+	"github.com/ins-tykgw/tyk/trace"
+	"github.com/ins-tykgw/tyk/user"
 )
 
 const defaultUserAgent = "Tyk/" + VERSION

@@ -27,11 +27,11 @@ import (
 
 	"golang.org/x/net/http2"
 
-	"github.com/TykTechnologies/tyk/apidef"
-	"github.com/TykTechnologies/tyk/certs"
-	"github.com/TykTechnologies/tyk/config"
-	"github.com/TykTechnologies/tyk/test"
-	"github.com/TykTechnologies/tyk/user"
+	"github.com/ins-tykgw/tyk/apidef"
+	"github.com/ins-tykgw/tyk/certs"
+	"github.com/ins-tykgw/tyk/config"
+	"github.com/ins-tykgw/tyk/test"
+	"github.com/ins-tykgw/tyk/user"
 )
 
 func getTLSClient(cert *tls.Certificate, caCert []byte) *http.Client {

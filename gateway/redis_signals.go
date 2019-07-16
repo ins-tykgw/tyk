@@ -11,8 +11,8 @@ import (
 	"github.com/garyburd/redigo/redis"
 
 	"github.com/TykTechnologies/goverify"
-	"github.com/TykTechnologies/tyk/config"
-	"github.com/TykTechnologies/tyk/storage"
+	"github.com/ins-tykgw/tyk/config"
+	"github.com/ins-tykgw/tyk/storage"
 )
 
 type NotificationCommand string

@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/TykTechnologies/tyk/request"
+	"github.com/ins-tykgw/tyk/request"
 )
 
 var sessionLimiter = SessionLimiter{}

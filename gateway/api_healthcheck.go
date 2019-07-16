@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/TykTechnologies/tyk/config"
-	"github.com/TykTechnologies/tyk/storage"
+	"github.com/ins-tykgw/tyk/config"
+	"github.com/ins-tykgw/tyk/storage"
 )
 
 type HealthPrefix string

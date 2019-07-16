@@ -12,12 +12,12 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/TykTechnologies/tyk/apidef"
-	"github.com/TykTechnologies/tyk/config"
-	"github.com/TykTechnologies/tyk/ctx"
-	"github.com/TykTechnologies/tyk/dnscache"
-	"github.com/TykTechnologies/tyk/request"
-	"github.com/TykTechnologies/tyk/test"
+	"github.com/ins-tykgw/tyk/apidef"
+	"github.com/ins-tykgw/tyk/config"
+	"github.com/ins-tykgw/tyk/ctx"
+	"github.com/ins-tykgw/tyk/dnscache"
+	"github.com/ins-tykgw/tyk/request"
+	"github.com/ins-tykgw/tyk/test"
 )
 
 func TestCopyHeader_NoDuplicateCORSHeaders(t *testing.T) {

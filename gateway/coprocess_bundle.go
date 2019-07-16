@@ -4,8 +4,8 @@ import (
 	"github.com/Sirupsen/logrus"
 
 	"github.com/TykTechnologies/goverify"
-	"github.com/TykTechnologies/tyk/apidef"
-	"github.com/TykTechnologies/tyk/config"
+	"github.com/ins-tykgw/tyk/apidef"
+	"github.com/ins-tykgw/tyk/config"
 
 	"archive/zip"
 	"bytes"

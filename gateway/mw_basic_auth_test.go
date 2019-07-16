@@ -7,11 +7,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/TykTechnologies/tyk/storage"
+	"github.com/ins-tykgw/tyk/storage"
 
-	"github.com/TykTechnologies/tyk/config"
-	"github.com/TykTechnologies/tyk/test"
-	"github.com/TykTechnologies/tyk/user"
+	"github.com/ins-tykgw/tyk/config"
+	"github.com/ins-tykgw/tyk/test"
+	"github.com/ins-tykgw/tyk/user"
 )
 
 func genAuthHeader(username, password string) string {

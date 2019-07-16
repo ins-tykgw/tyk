@@ -12,10 +12,10 @@ import (
 	"github.com/justinas/alice"
 	"github.com/lonelycode/go-uuid/uuid"
 
-	"github.com/TykTechnologies/tyk/config"
-	"github.com/TykTechnologies/tyk/signature_validator"
-	"github.com/TykTechnologies/tyk/test"
-	"github.com/TykTechnologies/tyk/user"
+	"github.com/ins-tykgw/tyk/config"
+	"github.com/ins-tykgw/tyk/signature_validator"
+	"github.com/ins-tykgw/tyk/test"
+	"github.com/ins-tykgw/tyk/user"
 )
 
 func TestMurmur3CharBug(t *testing.T) {

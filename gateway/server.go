@@ -37,19 +37,19 @@ import (
 	"github.com/TykTechnologies/goagain"
 	gas "github.com/TykTechnologies/goautosocket"
 	"github.com/TykTechnologies/gorpc"
-	"github.com/TykTechnologies/tyk/apidef"
-	"github.com/TykTechnologies/tyk/certs"
-	"github.com/TykTechnologies/tyk/checkup"
-	"github.com/TykTechnologies/tyk/cli"
-	"github.com/TykTechnologies/tyk/config"
-	"github.com/TykTechnologies/tyk/dnscache"
-	"github.com/TykTechnologies/tyk/headers"
-	logger "github.com/TykTechnologies/tyk/log"
-	"github.com/TykTechnologies/tyk/regexp"
-	"github.com/TykTechnologies/tyk/rpc"
-	"github.com/TykTechnologies/tyk/storage"
-	"github.com/TykTechnologies/tyk/trace"
-	"github.com/TykTechnologies/tyk/user"
+	"github.com/ins-tykgw/tyk/apidef"
+	"github.com/ins-tykgw/tyk/certs"
+	"github.com/ins-tykgw/tyk/checkup"
+	"github.com/ins-tykgw/tyk/cli"
+	"github.com/ins-tykgw/tyk/config"
+	"github.com/ins-tykgw/tyk/dnscache"
+	"github.com/ins-tykgw/tyk/headers"
+	logger "github.com/ins-tykgw/tyk/log"
+	"github.com/ins-tykgw/tyk/regexp"
+	"github.com/ins-tykgw/tyk/rpc"
+	"github.com/ins-tykgw/tyk/storage"
+	"github.com/ins-tykgw/tyk/trace"
+	"github.com/ins-tykgw/tyk/user"
 )
 
 var (
@@ -387,6 +387,7 @@ func loadAPIEndpoints(muxer *mux.Router) {
 	// set up main API handlers
 	r.HandleFunc("/reload/group", groupResetHandler).Methods("GET")
 	r.HandleFunc("/reload", resetHandler(nil)).Methods("GET")
+	r.HandleFunc("/hotreload", hotReloadHandler).Methods("GET")
 
 	if !isRPCMode() {
 		r.HandleFunc("/org/keys", orgHandler).Methods("GET")

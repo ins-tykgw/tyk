@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/TykTechnologies/tyk/config"
+	"github.com/ins-tykgw/tyk/config"
 )
 
 // RequestDefinition defines a batch request

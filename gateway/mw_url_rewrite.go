@@ -12,10 +12,10 @@ import (
 
 	"github.com/Sirupsen/logrus"
 
-	"github.com/TykTechnologies/tyk/apidef"
-	"github.com/TykTechnologies/tyk/ctx"
-	"github.com/TykTechnologies/tyk/regexp"
-	"github.com/TykTechnologies/tyk/user"
+	"github.com/ins-tykgw/tyk/apidef"
+	"github.com/ins-tykgw/tyk/ctx"
+	"github.com/ins-tykgw/tyk/regexp"
+	"github.com/ins-tykgw/tyk/user"
 )
 
 const (

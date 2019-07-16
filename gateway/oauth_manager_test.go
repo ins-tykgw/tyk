@@ -21,11 +21,11 @@ import (
 	"github.com/lonelycode/osin"
 	uuid "github.com/satori/go.uuid"
 
-	"github.com/TykTechnologies/tyk/apidef"
-	"github.com/TykTechnologies/tyk/config"
-	"github.com/TykTechnologies/tyk/storage"
-	"github.com/TykTechnologies/tyk/test"
-	"github.com/TykTechnologies/tyk/user"
+	"github.com/ins-tykgw/tyk/apidef"
+	"github.com/ins-tykgw/tyk/config"
+	"github.com/ins-tykgw/tyk/storage"
+	"github.com/ins-tykgw/tyk/test"
+	"github.com/ins-tykgw/tyk/user"
 )
 
 const (

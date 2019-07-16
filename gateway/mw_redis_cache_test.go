@@ -3,9 +3,9 @@ package gateway
 import (
 	"testing"
 
-	"github.com/TykTechnologies/tyk/apidef"
-	"github.com/TykTechnologies/tyk/config"
-	"github.com/TykTechnologies/tyk/test"
+	"github.com/ins-tykgw/tyk/apidef"
+	"github.com/ins-tykgw/tyk/config"
+	"github.com/ins-tykgw/tyk/test"
 )
 
 func TestRedisCacheMiddleware_WithCompressedResponse(t *testing.T) {

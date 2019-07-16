@@ -11,9 +11,9 @@ import (
 	maxminddb "github.com/oschwald/maxminddb-golang"
 	msgpack "gopkg.in/vmihailenco/msgpack.v2"
 
-	"github.com/TykTechnologies/tyk/config"
-	"github.com/TykTechnologies/tyk/regexp"
-	"github.com/TykTechnologies/tyk/storage"
+	"github.com/ins-tykgw/tyk/config"
+	"github.com/ins-tykgw/tyk/regexp"
+	"github.com/ins-tykgw/tyk/storage"
 )
 
 // AnalyticsRecord encodes the details of a request

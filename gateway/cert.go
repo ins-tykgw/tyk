@@ -9,8 +9,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/TykTechnologies/tyk/certs"
-	"github.com/TykTechnologies/tyk/config"
+	"github.com/ins-tykgw/tyk/certs"
+	"github.com/ins-tykgw/tyk/config"
 
 	"github.com/gorilla/mux"
 )

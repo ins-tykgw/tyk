@@ -13,7 +13,7 @@ import (
 	"github.com/justinas/alice"
 	"github.com/lonelycode/go-uuid/uuid"
 
-	"github.com/TykTechnologies/tyk/user"
+	"github.com/ins-tykgw/tyk/user"
 )
 
 const multiAuthDev = `{

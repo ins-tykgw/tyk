@@ -15,11 +15,11 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/justinas/alice"
 
-	"github.com/TykTechnologies/tyk/apidef"
-	"github.com/TykTechnologies/tyk/config"
-	"github.com/TykTechnologies/tyk/coprocess"
-	"github.com/TykTechnologies/tyk/storage"
-	"github.com/TykTechnologies/tyk/trace"
+	"github.com/ins-tykgw/tyk/apidef"
+	"github.com/ins-tykgw/tyk/config"
+	"github.com/ins-tykgw/tyk/coprocess"
+	"github.com/ins-tykgw/tyk/storage"
+	"github.com/ins-tykgw/tyk/trace"
 )
 
 type ChainObject struct {

@@ -3,8 +3,8 @@ package trace
 import (
 	"io"
 
-	"github.com/TykTechnologies/tyk/trace/jaeger"
-	"github.com/TykTechnologies/tyk/trace/openzipkin"
+	"github.com/ins-tykgw/tyk/trace/jaeger"
+	"github.com/ins-tykgw/tyk/trace/openzipkin"
 	"github.com/opentracing/opentracing-go"
 )
 

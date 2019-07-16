@@ -4,7 +4,7 @@
 package gateway
 
 /*
-#cgo pkg-config: python3
+#cgo pkg-config: python-3.4
 #cgo python CFLAGS: -DENABLE_PYTHON -DPy_LIMITED_API
 
 
@@ -187,9 +187,9 @@ import (
 
 	"github.com/Sirupsen/logrus"
 
-	"github.com/TykTechnologies/tyk/apidef"
-	"github.com/TykTechnologies/tyk/config"
-	"github.com/TykTechnologies/tyk/coprocess"
+	"github.com/ins-tykgw/tyk/apidef"
+	"github.com/ins-tykgw/tyk/config"
+	"github.com/ins-tykgw/tyk/coprocess"
 )
 
 // PythonDispatcher implements a coprocess.Dispatcher

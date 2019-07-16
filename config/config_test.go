@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/TykTechnologies/tyk/apidef"
+	"github.com/ins-tykgw/tyk/apidef"
 )
 
 func TestDefaultValueAndWriteDefaultConf(t *testing.T) {

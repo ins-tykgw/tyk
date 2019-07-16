@@ -39,6 +39,7 @@ import (
 	"strconv"
 	"strings"
 	"sync"
+	"syscall"
 	"time"
 
 	"github.com/Sirupsen/logrus"
@@ -46,12 +47,12 @@ import (
 	uuid "github.com/satori/go.uuid"
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/TykTechnologies/tyk/apidef"
-	"github.com/TykTechnologies/tyk/config"
-	"github.com/TykTechnologies/tyk/ctx"
-	"github.com/TykTechnologies/tyk/headers"
-	"github.com/TykTechnologies/tyk/storage"
-	"github.com/TykTechnologies/tyk/user"
+	"github.com/ins-tykgw/tyk/apidef"
+	"github.com/ins-tykgw/tyk/config"
+	"github.com/ins-tykgw/tyk/ctx"
+	"github.com/ins-tykgw/tyk/headers"
+	"github.com/ins-tykgw/tyk/storage"
+	"github.com/ins-tykgw/tyk/user"
 )
 
 // apiModifyKeySuccess represents when a Key modification was successful
@@ -1167,6 +1168,16 @@ func resetHandler(fn func()) http.HandlerFunc {
 
 		wg.Wait()
 		doJSONWrite(w, http.StatusOK, apiOk(""))
+	}
+}
+
+func hotReloadHandler(w http.ResponseWriter, r *http.Request) {
+	log.WithFields(logrus.Fields{
+		"prefix": "api",
+	}).Info("Triggering Hot Reload")
+	doJSONWrite(w, http.StatusOK, apiOk(""))
+	if err := syscall.Kill(hostDetails.PID, syscall.SIGUSR2); err != nil {
+		log.Error("Process reload failed: ", err)
 	}
 }
 

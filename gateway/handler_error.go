@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/TykTechnologies/tyk/headers"
-	"github.com/TykTechnologies/tyk/request"
+	"github.com/ins-tykgw/tyk/headers"
+	"github.com/ins-tykgw/tyk/request"
 )
 
 const (
